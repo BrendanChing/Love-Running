@@ -54,9 +54,10 @@ h1 {
     margin-bottom: 1em;
 }
 
-.active {
+/* .active {
     border-bottom: 1px solid;
 }
+*/
 
 nav {
     position: absolute;
@@ -85,8 +86,19 @@ main {
     margin-top: 47px;
 }
 
-footer {
-    background-color: orange;
+/* footer */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-network i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 
 /*  media query: tablets and larger (768px and above) */
@@ -127,9 +139,7 @@ footer {
         }
 }
 
-footer > li {
-    list-style-type: none;
-}
+
 
 
 
