@@ -156,6 +156,11 @@ main {
         /* push main content down to accommofate larger header */
         margin-top: 79px;
     }
+
+    #cover-text {
+        width: 300px;
+        right: 50px;
+    }
 }
 
 @media screen and (min-width: 992px) {
