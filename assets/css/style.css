@@ -140,6 +140,16 @@ main {
     color: #fafafa;
 }
 
+/* gallery styles */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
+
 /* footer */
 #social-networks {
     text-align: center;
@@ -196,6 +206,13 @@ hr {
     justify-content: center;
 }
 
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
 
 /*  media query: tablets and larger (768px and above) */
 @media screen and (min-width: 768px) {
@@ -247,11 +264,20 @@ hr {
         text-align: end;
         align-self: flex-end;
     }
+
+    /* gallery */
+    #photos {
+        column-count: 3;
+    }
 }
 
 @media screen and (min-width: 992px) {
         #menu a:hover {
             border-bottom: 1px solid black;
+        }
+
+        #photos {
+            column-count: 4;
         }
 }
 
