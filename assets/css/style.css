@@ -85,6 +85,10 @@ nav {
     display: none;
 }
 
+#why-title {
+    text-align:center;
+}
+
 main {
     
     /* make main element take up surplus space */
