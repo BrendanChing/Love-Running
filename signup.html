@@ -32,10 +32,10 @@
         </nav>
     </header>
     <!--contains the main content-->
-    <main>
+    <main id="signup-main">
         <section id="signup">
             <form action="http://formdump.codeinstitute.net" method="post" id="signup-form">
-                <h2><i class="fa-solid fa-heart-pulse"></i> LET'S GET YOU SIGNED UP!</h2>
+                <h2 id="signup-title"><i class="fa-solid fa-heart-pulse"></i> LET'S GET YOU SIGNED UP!</h2>
 
                 <label for="first-name">First Name</label>
                 <input type="text" id="first-name" name="first-name">
@@ -46,6 +46,8 @@
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email">
                 <br>
+                
+            <div id="radio-box">
                 <label for="road">Road</label>
                 <input type="radio" id="road" name="running-preference">
                 <br>
@@ -55,7 +57,10 @@
                 <label for="both">Both</label>
                 <input type="radio" id="both" name="running-preference">
                 <br>
+            </div>    
+            
                 <input type="submit" value="Let's Run!">
+            
             </form>
         </section>
     </main>
